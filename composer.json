@@ -1,0 +1,16 @@
+{
+  "name": "wearejh/m2-core-bug-elastic-search",
+  "description": "This Module fixes an issue where the Layered Navigation uses OR instead of AND for parameters when using elastic search.",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Jh\\CoreBugElasticSearch\\": ""
+    }
+  }
+}
